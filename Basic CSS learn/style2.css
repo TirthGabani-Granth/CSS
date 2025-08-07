@@ -1,0 +1,10 @@
+.box {
+    border: dotted 2px rgb(96, 139, 168);
+    width: 500px;
+    display:flex;
+    flex-direction: row-reverse;
+}
+.box > div {
+    border: solid 2px rgb(96, 168, 96);
+    border-radius: 5px;
+}
